@@ -1,0 +1,64 @@
+[display]
+mode = "ascii"
+
+[image]
+cols = 40
+rows = 12
+gap  = 5
+
+[logo]
+path = "/home/elars/.config/copetch/cop.tx"
+
+[colors]
+key = "cyan"
+accent = "bright_black"
+value = "white"
+separator = "bright_black"
+reset = "reset"
+bold = "bold"
+bar = ["red", "green", "yellow", "blue", "magenta", "cyan", "white"]
+
+[[modules]]
+type = "title"
+
+[[modules]]
+type = "divider"
+
+[[modules]]
+type = "os"
+label = "os"
+
+[[modules]]
+type = "kernel"
+label = "ker"
+
+[[modules]]
+type = "shell"
+label = "sh"
+
+[[modules]]
+type = "wm"
+label = "wm"
+
+[[modules]]
+type = "cpu"
+label = "cpu"
+
+[[modules]]
+type = "gpu"
+label = "gpu"
+
+[[modules]]
+type = "memory"
+label = "mem"
+
+[[modules]]
+type = "disk"
+label = "disk"
+
+[[modules]]
+type = "generation"
+label = "gen"
+
+[[modules]]
+type = "divider"
